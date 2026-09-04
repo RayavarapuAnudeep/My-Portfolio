@@ -95,6 +95,22 @@ section > p {
     margin-bottom: 4px;
 }
 
+#achievements li a {
+    display: inline-block;
+    width: fit-content;
+    margin-top: 15px;
+    padding: 9px 18px;
+    background-color: #2563eb;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 7px;
+    font-weight: 600;
+}
+
+#achievements li a:hover {
+    background-color: #1d4ed8;
+}
+
 #skills ul {
     display: flex;
     flex-wrap: wrap;
